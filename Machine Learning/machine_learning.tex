@@ -1,0 +1,42 @@
+%-------------------------
+% Resume in LaTeX
+% Author: Arslan Khalid
+% License: MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+\input{../base/setup.tex}
+
+\begin{document}
+
+% Define role for this resume
+\newcommand{\resumeRole}{Machine Learning Engineer}
+\newcommand{\resumeJobTitleGulzar}{Machine Learning Engineer}
+
+%----------HEADING-----------------
+\input{../base/contact.tex}
+
+%-----------EDUCATION-----------------
+\section{Education}
+\input{../base/education.tex}
+
+%-----------SKILLS-----------------
+\vspace{-10pt}
+\section{Skills}
+\input{../skills/ml_engineer.tex}
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+\resumeSubHeadingListStart
+  \input{../experience/gulzarsoft.tex}
+  \input{../experience/coders_launchpad.tex}
+  \input{../experience/isl.tex}
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Projects}
+\resumeSubHeadingListStart
+  \input{../projects/quadruped_robot.tex}
+\resumeSubHeadingListEnd
+
+\end{document}

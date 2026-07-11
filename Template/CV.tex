@@ -1,0 +1,49 @@
+%-------------------------
+% Resume in LaTeX
+% Author: Arslan Khalid
+% License: MIT
+%------------------------
+
+\documentclass[a4paper,11pt]{article}
+\input{../base/setup.tex}
+
+\begin{document}
+
+% Define role for this resume
+\newcommand{\resumeRole}{Python Developer}
+\newcommand{\resumeJobTitleGulzar}{Python Developer}
+
+%----------HEADING-----------------
+\input{../base/contact.tex}
+
+%-----------EDUCATION-----------------
+\section{Education}
+\input{../base/education.tex}
+
+%-----------SKILLS-----------------
+\vspace{-15pt}
+\section{Skills}
+\input{../skills/python_dev.tex}
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+\resumeSubHeadingListStart
+  \input{../experience/gulzarsoft.tex}
+  \input{../experience/coders_launchpad.tex}
+  \input{../experience/isl.tex}
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Projects}
+\resumeSubHeadingListStart
+  \input{../projects/web_scraping.tex}
+  \input{../projects/chat_with_pdf.tex}
+  \input{../projects/ppe_detection.tex}
+  \input{../projects/speech_recognition.tex}
+\resumeSubHeadingListEnd
+
+%-----------AWARDS-----------------
+\section{Awards}
+\input{../base/awards.tex}
+
+\end{document}
