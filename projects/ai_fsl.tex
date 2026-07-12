@@ -1,10 +1,10 @@
 \resumeSubheading
   {AI-FSL | AI-Powered French Language Learning Platform}{}
-  {Django 5, FastAPI, OpenAI GPT-4o, LangChain, PostgreSQL, AWS}{}
+  {Django 5, FastAPI, OpenAI GPT-4o, LiveKit, LangChain, PostgreSQL, AWS}{}
   \resumeItemListStart
-    \item \small{Architected a multi-tenant SaaS platform for French-as-a-Second-Language education serving a District $\to$ School $\to$ Teacher $\to$ Student hierarchy, adopted by Canadian school boards.}
-    \item \small{Developed an AI lesson-plan generation engine (GPT-4o) with context assembly, prompt templating, and structured JSON outputs, cutting curriculum preparation time for educators from hours to minutes.}
-    \item \small{Implemented CEFR-aligned French proficiency assessments (AI interviewer, evaluator, practice modules) with Deepgram speech-to-text.}
+    \item \small{Architected a multi-tenant SaaS platform for French-as-a-Second-Language education serving a District $\to$ School $\to$ Teacher $\to$ Student hierarchy --- actively used by 2 Canadian school districts with 88 teachers onboard.}
+    \item \small{Developed an AI lesson-plan generation engine (GPT-4o) with context assembly, prompt templating, and structured JSON outputs, cutting long-term lesson-plan creation from weeks to 2 minutes.}
+    \item \small{Built an advanced real-time CEFR interviewer on LiveKit with sub-700ms latency and highly accurate proficiency results, alongside evaluator and practice modules with Deepgram speech-to-text.}
     \item \small{Built curriculum-aware RAG responses with LangChain and vector databases, plus a document import pipeline (upload $\to$ LLM extraction $\to$ human approval) for Word/PDF curricula.}
     \item \small{Designed an LLM auditability system logging every generation call (tokens, cost, latency) tied to plan version snapshots with diff/restore.}
     \item \small{Set up CI/CD with GitHub Actions deploying Dockerized Django/FastAPI services to AWS EC2 with automated migrations and health checks.}
